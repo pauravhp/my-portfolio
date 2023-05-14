@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 
 const Home = () => {
 	// To achieve text animation where the text slowly being showcased
@@ -71,12 +72,14 @@ const Home = () => {
 					Lorem Ipsum..........................
 				</p>
 				<div>
-					<button className="text-[#F8EDE3] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#b08968] hover:border-[#b08968]">
-						View Work
-						<span className="group-hover:rotate-90 duration-300">
-							<HiArrowNarrowRight className="ml-3" />
-						</span>
-					</button>
+					<Link to="projects" smooth={true} duration={500}>
+						<button className="text-[#F8EDE3] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#b08968] hover:border-[#b08968]">
+							View Work
+							<span className="group-hover:rotate-90 duration-300">
+								<HiArrowNarrowRight className="ml-3" />
+							</span>
+						</button>
+					</Link>
 				</div>
 			</div>
 		</div>
