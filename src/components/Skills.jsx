@@ -1,7 +1,6 @@
 import React from "react";
 import Github from "../assets/github.png";
 import JS from "../assets/javascript.png";
-import Tailwind from "../assets/tailwind.png";
 import Python from "../assets/python.png";
 import ReactImg from "../assets/react.png";
 import SKLearn from "../assets/scikit-learn.png";
