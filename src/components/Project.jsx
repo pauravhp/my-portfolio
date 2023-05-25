@@ -51,7 +51,7 @@ const Project = () => {
 						{/* Hover Effects */}
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold text-[#F8EDE3] tracking-wider">
-								Delivery For T Unity Game
+								DeliveryForT Game
 							</span>
 							<div className="pt-8 text-center">
 								<a href="https://github.com/pauravhp/Delivery-For-T">

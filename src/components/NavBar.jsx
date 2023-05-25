@@ -39,7 +39,7 @@ const NavBar = () => {
 						</Link>
 					</li>
 					<li>
-						<Link to="contact" smooth={true} duration={500}>
+						<Link to="contact" smooth={true} offset={-65} duration={500}>
 							Contact
 						</Link>
 					</li>
@@ -89,7 +89,13 @@ const NavBar = () => {
 					</Link>
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+					<Link
+						onClick={handleClick}
+						to="contact"
+						smooth={true}
+						offset={-65}
+						duration={500}
+					>
 						Contact
 					</Link>
 				</li>
@@ -114,7 +120,7 @@ const NavBar = () => {
 							Github <FaGithub size={25} />
 						</a>
 					</li>
-					<Link to="contact" smooth={true} duration={500}>
+					<Link to="contact" smooth={true} offset={-65} duration={500}>
 						<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
 							<a
 								className="flex justify-between items-center w-full text-[#F8EDE3]"
