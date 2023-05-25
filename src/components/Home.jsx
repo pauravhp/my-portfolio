@@ -56,7 +56,7 @@ const Home = () => {
 			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
 				<p className="text-[#F9F5EB]">Hi, my name is</p>
 				<h1 className="text-4xl sm:text-7xl font-bold text-[#F8EDE3]">
-					Paurav Hosur Paramashivaiah
+					Paurav H Param
 				</h1>
 				<span
 					className="txt-rotate text-4xl sm:text-7xl font-bold text-[#e6ccb2]"
