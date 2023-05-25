@@ -21,9 +21,9 @@ const About = () => {
 						<p>
 							"I'm a passionate third-year computer science student at
 							University of Victoria, specializing in full-stack development and
-							Machine Learning. Avid learner with a strong foundation in C,
+							Machine Learning. An avid learner with a strong foundation in C,
 							Python, and JavaScript. Seeking practical experience to complement
-							theoretical knowledge. Collaborative team player with excellent
+							theoretical knowledge. A collaborative team player with excellent
 							communication skills. Enthusiastic about exploring new
 							technologies and solving real-world challenges. Let's connect for
 							exciting opportunities to apply my skills and contribute to
