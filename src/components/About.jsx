@@ -19,13 +19,15 @@ const About = () => {
 					</div>
 					<div>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-							enim ad minim veniam, quis nostrud exercitation ullamco laboris
-							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-							reprehenderit in voluptate velit esse cillum dolore eu fugiat
-							nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-							sunt in culpa qui officia deserunt mollit anim id est laborum.
+							"I'm a passionate third-year computer science student at
+							University of Victoria, specializing in full-stack development and
+							Machine Learning. Avid learner with a strong foundation in C,
+							Python, and JavaScript. Seeking practical experience to complement
+							theoretical knowledge. Collaborative team player with excellent
+							communication skills. Enthusiastic about exploring new
+							technologies and solving real-world challenges. Let's connect for
+							exciting opportunities to apply my skills and contribute to
+							innovative projects."
 						</p>
 					</div>
 				</div>

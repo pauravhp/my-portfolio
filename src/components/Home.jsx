@@ -11,7 +11,7 @@ const Home = () => {
 	const [delta, setDelta] = useState(300 - Math.random() * 100);
 	const [index, setIndex] = useState(1);
 	const toRotate = ["A Full-Stack Developer", "A Machine Learning Researcher"];
-	const period = 1250;
+	const period = 750;
 
 	useEffect(() => {
 		let ticker = setInterval(() => {

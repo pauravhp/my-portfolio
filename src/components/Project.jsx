@@ -1,5 +1,7 @@
 import React from "react";
-import WorkImg from "../assets/workimg.png";
+import TinDogImg from "../assets/tindog.png";
+import DDGameImg from "../assets/delivery_driver_game.png";
+import RPortalImg from "../assets/recruiters_portal.png";
 
 const Project = () => {
 	return (
@@ -19,7 +21,7 @@ const Project = () => {
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
 					{/* Card Item 1*/}
 					<div
-						style={{ backgroundImage: `url(${WorkImg})` }}
+						style={{ backgroundImage: `url(${TinDogImg})` }}
 						className="shadow-lg shadow-[#214E34] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover Effects */}
@@ -43,16 +45,16 @@ const Project = () => {
 					</div>
 					{/* Card Item 2*/}
 					<div
-						style={{ backgroundImage: `url(${WorkImg})` }}
+						style={{ backgroundImage: `url(${DDGameImg})` }}
 						className="shadow-lg shadow-[#214E34] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover Effects */}
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold text-[#F8EDE3] tracking-wider">
-								TinDog CSS Website
+								Delivery For T Unity Game
 							</span>
 							<div className="pt-8 text-center">
-								<a href="">
+								<a href="https://github.com/pauravhp/Delivery-For-T">
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F8EDE3] text-gray-700 font-bold text-lg">
 										Code
 									</button>
@@ -62,16 +64,16 @@ const Project = () => {
 					</div>
 					{/* Card Item 3*/}
 					<div
-						style={{ backgroundImage: `url(${WorkImg})` }}
+						style={{ backgroundImage: `url(${RPortalImg})` }}
 						className="shadow-lg shadow-[#214E34] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover Effects */}
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold text-[#F8EDE3] tracking-wider">
-								TinDog CSS Website
+								Recruiters' Portal
 							</span>
 							<div className="pt-8 text-center">
-								<a href="">
+								<a href="https://github.com/Sakshamdua/Recruiters-Portal">
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F8EDE3] text-gray-700 font-bold text-lg">
 										Code
 									</button>
