@@ -69,7 +69,7 @@ const Home = () => {
 					I'm a Full Stack Developer and ML Enthusiast.
 				</h2> */}
 				<p className="text-[#e6ccb2] py-4 max-ww-[700px]">
-					Lorem Ipsum..........................
+					Welcome, my name is Paurav. Feel free to have a look aroud.
 				</p>
 				<div>
 					<Link to="projects" smooth={true} duration={500}>
