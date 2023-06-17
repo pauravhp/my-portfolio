@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.45a37cf5.css",
-    "main.js": "/my-portfolio/static/js/main.a5656d1a.js",
+    "main.js": "/my-portfolio/static/js/main.294b01ae.js",
     "static/media/My_Profile_Photo.jpg": "/my-portfolio/static/media/My_Profile_Photo.80cb11c018ebf5e28d94.jpg",
     "static/media/tindog.png": "/my-portfolio/static/media/tindog.3735fdb1692f212aeada.png",
     "static/media/recruiters_portal.png": "/my-portfolio/static/media/recruiters_portal.c3c8f8be2caa70f08d2f.png",
     "static/media/delivery_driver_game.png": "/my-portfolio/static/media/delivery_driver_game.174acad948ce23ff9d67.png",
     "static/media/scikit-learn.png": "/my-portfolio/static/media/scikit-learn.b475a721594f9fd32863.png",
+    "static/media/predict_akshar.png": "/my-portfolio/static/media/predict_akshar.638556d15b78f259c9a3.png",
     "static/media/java.png": "/my-portfolio/static/media/java.5d5cffa04d820ba0644c.png",
     "static/media/react.png": "/my-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/c.png": "/my-portfolio/static/media/c.83dfa097dfa94f707a41.png",
@@ -14,10 +15,10 @@
     "static/media/javascript.png": "/my-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/my-portfolio/index.html",
     "main.45a37cf5.css.map": "/my-portfolio/static/css/main.45a37cf5.css.map",
-    "main.a5656d1a.js.map": "/my-portfolio/static/js/main.a5656d1a.js.map"
+    "main.294b01ae.js.map": "/my-portfolio/static/js/main.294b01ae.js.map"
   },
   "entrypoints": [
     "static/css/main.45a37cf5.css",
-    "static/js/main.a5656d1a.js"
+    "static/js/main.294b01ae.js"
   ]
 }
