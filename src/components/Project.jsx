@@ -1,4 +1,5 @@
 import React from "react";
+import PAksharImg from "../assets/predict_akshar.png";
 import TinDogImg from "../assets/tindog.png";
 import DDGameImg from "../assets/delivery_driver_game.png";
 import RPortalImg from "../assets/recruiters_portal.png";
@@ -19,6 +20,24 @@ const Project = () => {
 
 				{/* Card Container */}
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+					<div
+						style={{ backgroundImage: `url(${PAksharImg})` }}
+						className="shadow-lg shadow-[#214E34] group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/* Hover Effects */}
+						<div className="opacity-0 group-hover:opacity-100">
+							<span className="text-2xl font-bold text-[#F8EDE3] tracking-wider">
+								Predict Akshar App
+							</span>
+							<div className="pt-8 text-center">
+								<a href="https://github.com/pauravhp/Predict_Akshar">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F8EDE3] text-gray-700 font-bold text-lg">
+										Code
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
 					{/* Card Item 1*/}
 					<div
 						style={{ backgroundImage: `url(${TinDogImg})` }}
