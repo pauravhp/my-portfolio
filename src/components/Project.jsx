@@ -3,6 +3,11 @@ import PAksharImg from "../assets/predict_akshar.png";
 import TinDogImg from "../assets/tindog.png";
 import DDGameImg from "../assets/delivery_driver_game.png";
 import RPortalImg from "../assets/recruiters_portal.png";
+import SGameImg from "../assets/simons_game.png";
+import VayaImg from "../assets/Vaya.jpeg";
+import ProjectCard from "./ProjectCard";
+import BMVImg from "../assets/be_my_valentine.jpeg";
+import UTTTImg from "../assets/uttt_automation.png";
 
 const Project = () => {
 	return (
@@ -20,86 +25,51 @@ const Project = () => {
 
 				{/* Card Container */}
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-					<div
-						style={{ backgroundImage: `url(${PAksharImg})` }}
-						className="shadow-lg shadow-[#214E34] group container rounded-md flex justify-center items-center mx-auto content-div"
-					>
-						{/* Hover Effects */}
-						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-[#F8EDE3] tracking-wider">
-								Predict Akshar App
-							</span>
-							<div className="pt-8 text-center">
-								<a href="https://github.com/pauravhp/Predict_Akshar">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F8EDE3] text-gray-700 font-bold text-lg">
-										Code
-									</button>
-								</a>
-							</div>
-						</div>
-					</div>
-					{/* Card Item 1*/}
-					<div
-						style={{ backgroundImage: `url(${TinDogImg})` }}
-						className="shadow-lg shadow-[#214E34] group container rounded-md flex justify-center items-center mx-auto content-div"
-					>
-						{/* Hover Effects */}
-						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-[#F8EDE3] tracking-wider">
-								TinDog CSS Website
-							</span>
-							<div className="pt-8 text-center">
-								<a href="https://pauravhp.github.io/TinDog/">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F8EDE3] text-gray-700 font-bold text-lg">
-										Demo
-									</button>
-								</a>
-								<a href="https://github.com/pauravhp/TinDog">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F8EDE3] text-gray-700 font-bold text-lg">
-										Code
-									</button>
-								</a>
-							</div>
-						</div>
-					</div>
-					{/* Card Item 2*/}
-					<div
-						style={{ backgroundImage: `url(${DDGameImg})` }}
-						className="shadow-lg shadow-[#214E34] group container rounded-md flex justify-center items-center mx-auto content-div"
-					>
-						{/* Hover Effects */}
-						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-[#F8EDE3] tracking-wider">
-								DeliveryForT Game
-							</span>
-							<div className="pt-8 text-center">
-								<a href="https://github.com/pauravhp/Delivery-For-T">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F8EDE3] text-gray-700 font-bold text-lg">
-										Code
-									</button>
-								</a>
-							</div>
-						</div>
-					</div>
-					{/* Card Item 3*/}
-					<div
-						style={{ backgroundImage: `url(${RPortalImg})` }}
-						className="shadow-lg shadow-[#214E34] group container rounded-md flex justify-center items-center mx-auto content-div"
-					>
-						{/* Hover Effects */}
-						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-[#F8EDE3] tracking-wider">
-								Recruiters' Portal
-							</span>
-							<div className="pt-8 text-center">
-								<a href="https://github.com/Sakshamdua/Recruiters-Portal">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F8EDE3] text-gray-700 font-bold text-lg">
-										Code
-									</button>
-								</a>
-							</div>
-						</div>
-					</div>
+					<ProjectCard
+						img={VayaImg}
+						title="Vaya: Your Personalized Restaurant Recommender"
+						codelink="https://github.com/AbhayAnoopC/vaya-vaya"
+						demolink="https://www.linkedin.com/posts/rushaan-chawla_recently-i-had-the-opportunity-to-participate-activity-7208672930325549057-jNeW?utm_source=share&utm_medium=member_desktop"
+					/>
+					<ProjectCard
+						img={UTTTImg}
+						title="UTTT Hackathon Automation"
+						codelink="https://github.com/pauravhp/uttt-tournament-automation"
+					/>
+					<ProjectCard
+						img={PAksharImg}
+						title="Predict Akshar App"
+						codelink="https://github.com/pauravhp/Predict_Akshar"
+						demolink=""
+					/>
+					<ProjectCard
+						img={RPortalImg}
+						title="Recruiters' Portal"
+						codelink="https://github.com/Sakshamdua/Recruiters-Portal"
+					/>
+					<ProjectCard
+						img={BMVImg}
+						title="Be My Valentine"
+						codelink="https://github.com/pauravhp/be_my_valentine"
+						demolink="https://pauravhp.github.io/be_my_valentine/"
+					/>
+					<ProjectCard
+						img={SGameImg}
+						title="Simon's Game"
+						codelink="https://github.com/pauravhp/SimonGame"
+						demolink="https://pauravhp.github.io/SimonGame/"
+					/>
+					<ProjectCard
+						img={TinDogImg}
+						title="TinDog CSS Website"
+						codelink="https://github.com/pauravhp/TinDog"
+						demolink="https://pauravhp.github.io/TinDog/"
+					/>
+					<ProjectCard
+						img={DDGameImg}
+						title="DeliveryForT Game"
+						codelink="https://github.com/pauravhp/Delivery-For-T"
+					/>
 				</div>
 			</div>
 		</div>
